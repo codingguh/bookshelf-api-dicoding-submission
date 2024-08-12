@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb-base"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-console": "off",
+    "consistent-return": "off",
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    // Add more rule overrides based on your Hapi.js coding preferences
+  }
+}
